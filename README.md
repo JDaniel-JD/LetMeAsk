@@ -1,8 +1,9 @@
 <p align="center">
   <img alt="Letmeask" src=".github/logo.svg" width="160px">
 </p>
-<p>
-  <h6>https://letmeask-jd.web.app/</h6>
+<p align="center">Acesse o site e teste:</p>
+<p align="center">
+  <h6 align="center">https://letmeask-jd.web.app/</h6>
 </p>
 
 <h1 align="center">
