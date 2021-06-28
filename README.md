@@ -2,7 +2,7 @@
   <img alt="Letmeask" src=".github/logo.svg" width="160px">
 </p>
 <p>
-  <h1>https://letmeask-jd.web.app/</h1>
+  <h6>https://letmeask-jd.web.app/</h6>
 </p>
 
 <h1 align="center">
