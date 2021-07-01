@@ -1,0 +1,112 @@
+.modal {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        background-color: #fff;
+        color: #000;
+        width: 30%;
+        height: 50%;
+        border-radius: 20px;
+
+        .close {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            width: 32px;
+            height: 32px;
+            right: calc(-100% + 25px);
+            top: 2px;
+            cursor: pointer;
+            display: flex;
+            position: relative;
+            align-items: center;
+            
+            &:before,
+            &:after {
+                content: ' ';
+                position: absolute;
+                width: 2.5px;
+                height: 24px;
+                background-color: #000;
+            }
+            &:before {
+                transform: rotate(45deg);
+            }
+            &:after {
+                transform: rotate(-45deg);
+            }
+        }
+    }
+
+    .lixeira {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .endRoom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        color: #E73F5D;
+    }
+
+    .textRoom {
+        font-size: 15px;
+        height: 30px;;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #737380;
+    }
+
+    .bt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+    }
+
+    .yes {
+        height: 30px;
+        border-radius: 8px;
+        font-weight: 100;
+        background: #FFF;
+        color: #E73F5D;
+        padding: 0 32px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        cursor: pointer;
+        border: solid 1px #E73F5D;
+
+        transition: filter 0.2s;
+
+        &.outlined {
+            background: #FFF;
+            border: 1px solid #835afd;
+            color: #835afd;
+        }
+
+        &:not(:disabled):hover {
+            filter: brightness(0.9);
+        }
+
+        &:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+  }
+    }
+}
